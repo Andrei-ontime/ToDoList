@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #1E2761;
+	font-family: 'Permanent Marker', cursive;
+	color: #408EC6;
+}
+.wrap {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.list {
+	border: 1px solid black;
+}
+
+.title {
+	color: #7A2048;
+}
+
+.title span {
+	transition: 1.8s;
+}
+
+.title:hover span, .btn-add:hover, .btn-delete:hover {
+	text-shadow: 0 0 10px rgba(52, 231, 255, 0.658),
+					 0 0 20px #6eecfd,
+					 0 0 40px #CFF9FF,
+					 0 0 80px #FFDA72,
+					 0 0 120px rgb(167, 167, 167),
+					 0 0 160px rgb(144, 144, 144);
+}
+
+.input {
+	background-color: #DAF2DC;
+	border: 2px solid #81B7D2;
+	border-radius: 5px;
+	outline: none;
+}
+
+.btn-add {
+	color: #408EC6;
+	font-weight: 700;
+	border: none;
+	background: none;
+	outline: none;
+}
+
+
+
+ul {
+}
+
+li {
+	list-style: none;
+}
+
+.li-active {
+	color: #408EC6;
+	text-decoration: line-through;
+}
+
+.btn-delete {
+	position: fixed;
+	font-size: 7px;
+	font-weight: 900;
+	color: #7A2048;
+	border: none;
+	background: none;
+	outline: none;
+}
