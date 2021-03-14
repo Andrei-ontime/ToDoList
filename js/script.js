@@ -17,7 +17,7 @@ function createDeleteElements(value) {
 
 	const li = document.createElement('li')
 	li.className = 'li'
-	li.textContent = value
+	li.textContent = value                                    
 
 	const btn = document.createElement('button')
 	btn.className = 'btn-delete'

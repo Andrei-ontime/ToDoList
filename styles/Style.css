@@ -5,8 +5,8 @@
 }
 
 body {
-	background: #1E2761;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Caveat', cursive;
+	background: black;
 	color: #408EC6;
 }
 .wrap {
@@ -15,36 +15,42 @@ body {
 	text-align: center;
 }
 
-.list {
-	border: 1px solid black;
-}
 
 .title {
+	margin-bottom: 1rem;
 	color: #7A2048;
+	font-size: 3.5rem;
 }
 
 .title span {
 	transition: 1.8s;
 }
 
-.title:hover span, .btn-add:hover, .btn-delete:hover {
+.title:hover span, .btn-add:hover, .btn-delete:hover, .input {
 	text-shadow: 0 0 10px rgba(52, 231, 255, 0.658),
 					 0 0 20px #6eecfd,
 					 0 0 40px #CFF9FF,
-					 0 0 80px #FFDA72,
-					 0 0 120px rgb(167, 167, 167),
-					 0 0 160px rgb(144, 144, 144);
+					 0 0 60px #FFDA72,
+					 0 0 80px rgb(255, 255, 255),
+					 0 0 120px rgb(255, 255, 255);
 }
 
 .input {
-	background-color: #DAF2DC;
-	border: 2px solid #81B7D2;
-	border-radius: 5px;
+	margin-bottom: 1.5rem;
+	font-family: 'Caveat', cursive;
+	background-color: black;
+	color: #408EC6;
+	border-bottom: 1px solid #7A2048;
+	border-top: none;
+	border-left: none;
+	border-right: none;
 	outline: none;
 }
 
 .btn-add {
-	color: #408EC6;
+	font-family: 'Caveat', cursive;
+	font-size: 1.5rem;
+	color: #7A2048;
 	font-weight: 700;
 	border: none;
 	background: none;
@@ -52,16 +58,13 @@ body {
 }
 
 
-
-ul {
-}
-
 li {
+	font-size: 1.5rem;
 	list-style: none;
 }
 
 .li-active {
-	color: #408EC6;
+	color: #032a46;
 	text-decoration: line-through;
 }
 
